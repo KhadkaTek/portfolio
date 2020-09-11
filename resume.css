@@ -1,0 +1,161 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Noto Serif', serif;
+}
+/*
+.all {
+  width: 1050px; 
+  height: 975px;
+  background-color: lightpink;
+  border-radius: 10px;
+}
+*/
+body {
+  color:#000;
+  width: 1024px;
+  padding-left: 8%;
+  padding-top: 2%;
+  border-width: 1px;
+  border-color: red;
+  border-style: line;
+}
+
+.back {
+  background-color: lightpink;
+  border-size: 2px;
+  grid-template-columns: 100%;
+  grid-template-rows: 100vh;
+}
+header {
+  text-align: center;
+  background-color: #488cfa;
+  color: white;
+  text-align: left;
+  padding-left: 25px;
+  display: inline-block;
+  width: 1024px;
+  float: right;
+
+}
+
+/*h2 {
+  float: left;
+  background-color: lightblue;
+  padding: 0px 10px;
+}*/
+.tek {
+  float: left;
+}
+
+.khadka {
+  float: right;
+  padding-top: 20px;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+li {
+  display: inline-grid;
+  list-style-type: none;
+  text-align: right;
+  float: right;
+  font-weight: bold;
+}
+
+  a {
+  display: block;
+  width: 75px;
+  padding: 9px 5px;
+  border-radius: 5px;
+  margin: 10% 5px;
+  /*background-color: #339966;*/
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: black;
+  /*transition-property: background-color;
+  transition-duration: 750ms;*/
+  float: right;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  font-weight: bold;
+}
+
+/*header {
+    font: bold calc(.025 * (100vw)) 'Arial', sans-serif;
+}*/
+
+
+main {
+  width: 65%;
+  float: left;
+}
+
+.grid {
+  border-color: red;
+  display: grid;
+  height: auto;
+  width: 65%px;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 10px 100px;
+  grid-row-gap: 10px;
+  grid-column-gap: 65px; 
+  padding-top: 10px;
+  
+}
+
+.list1 {
+  display: grid;
+  float: left;
+  color: #3480eb;
+  padding-left: 20px;
+  font-weight: normal;
+}
+
+aside {
+    width: 30%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+    height: auto;
+}
+
+aside > p {
+    margin: .5rem;
+    font-size: 15px;
+}
+
+}
+}
+.ab {
+  padding: 10px;
+}
+
+p {
+  text-align: justify;
+  text-indent: 1.5cm;
+  line-height: 25px;
+}
+
+footer {
+  color: #0858c9;;
+  height: 45px;
+  width: 1024px;
+  clear: left;
+}
+
+p.fot {
+  clear: left;
+  padding-left: 0px;
+  background-color: #177fff;
+  width: 1024;
+  color: white;
+  font-size: 13px;
+}
